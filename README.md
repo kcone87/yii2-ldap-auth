@@ -7,12 +7,25 @@ Simple extension to handle auth over LDAP in Yii 2 applications.
 
 ```shell script
 php composer.phar require --prefer-dist kcone87/yii2-ldap-auth "*"
-
+```
 or add
-
+```
 "kcone87/yii2-ldap-auth": "*"
 ```
+to the require section of your composer.json file.
 
+To always use the latest version from Github, in your composer.json, add this repository to the repositories section.
+```
+{
+    ...
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kcone87/yii2-ldap-auth"
+        }
+    ],
+}
+```
 # Example of configuration and a use case
 Considering [yii2-app-basic](https://github.com/yiisoft/yii2-app-basic): 
 
