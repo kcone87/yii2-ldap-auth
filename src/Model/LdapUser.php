@@ -12,7 +12,7 @@ use yii\web\IdentityInterface;
  * LDAP user model.
  *
  * @package stmswitcher\Yii2LdapAuth\Model
- * @author Enock Willy <willyenock02@gmail.com>
+ * @author Enock Willy <enokahoyah@gmail.com>
  * @date 27.06.2022
  */
 class LdapUser extends BaseObject implements IdentityInterface
