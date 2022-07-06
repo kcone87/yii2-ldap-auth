@@ -72,12 +72,4 @@ public function login()
     return false;
 }
 ```
-
-### Verify that user belongs to LDAP group
-If you need also need to check if user is a member of certain LDAP group, use one more parameter
-for the `authenticate` function:
-```php
-Yii::$app->ldapAuth->authenticate($user->getDn(), $this->password, 'cn=auth-user-group')
-```
-
 Now you can login with LDAP credentials to your application.
