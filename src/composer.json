@@ -1,0 +1,23 @@
+{
+  "name": "kcone87/yii2-ldap-auth",
+  "license": "MIT",
+  "description": "Simple library to handle auth over LDAP in Yii 2 applications.",
+  "keywords": ["yii2", "extension", "ldap", "auth"],
+  "type": "yii2-extension",
+  "require": {
+    "php": ">= 7.3",
+    "ext-ldap": "*",
+    "yiisoft/yii2": "~2.0.14"
+  },
+  "authors": [
+    {
+      "name": "Enock Willy",
+      "email": "enokahoyah@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "kcone87\\Yii2LdapAuth\\": "src/"
+    }
+  }
+}
