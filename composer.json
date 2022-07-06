@@ -4,7 +4,6 @@
   "description": "Simple library to handle auth over LDAP in Yii 2 applications.",
   "keywords": ["yii2", "extension", "ldap", "auth"],
   "type": "yii2-extension",
-  "minimum-stability": "stable",
   "require": {
     "php": ">= 7.3",
     "ext-ldap": "*",

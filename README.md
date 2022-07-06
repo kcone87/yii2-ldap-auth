@@ -6,7 +6,11 @@ Simple extension to handle auth over LDAP in Yii 2 applications.
 # Installation
 
 ```shell script
-composer require "kcone87/yii2-ldap-auth"
+php composer.phar require --prefer-dist kcone87/yii2-ldap-auth "*"
+
+or add
+
+"kcone87/yii2-ldap-auth": "*"
 ```
 
 # Example of configuration and a use case
