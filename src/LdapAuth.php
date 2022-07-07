@@ -165,12 +165,12 @@ class LdapAuth extends Component
     }
 
     /**
-     * @param string $uid
+     * @param string|int $uid
      *
      * @return array Data from LDAP or null
      * @throws Yii2LdapAuthException
      */
-    public function searchUid(string $uid): ?array
+    public function searchUid($uid): ?array
     {
         $result = ldap_search(
             $this->getConnection(),
