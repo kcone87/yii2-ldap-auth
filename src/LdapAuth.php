@@ -158,7 +158,7 @@ class LdapAuth extends Component
      * @return resource
      * @throws Yii2LdapAuthException
      */
-    public function getConnection(): bool
+    public function getConnection()
     {
         $this->connect();
         return $this->connection;
