@@ -11,9 +11,9 @@ use yii\web\IdentityInterface;
 /**
  * LDAP user model.
  *
- * @package stmswitcher\Yii2LdapAuth\Model
+ * @package kcone87\Yii2LdapAuth\Exception
  * @author Enock Willy <enokahoyah@gmail.com>
- * @date 27.06.2022
+ * @date 07/06/2022
  */
 class LdapUser extends BaseObject implements IdentityInterface
 {
